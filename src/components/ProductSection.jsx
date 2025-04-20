@@ -185,6 +185,8 @@ const ProductSection = ({ isActive }) => {
           >
             Discover Our <span className="text-primary">Product</span>
           </motion.h2>
+
+          
           
           <div className="grid md:grid-cols-2 gap-12 items-center ">
             <motion.div variants={itemVariants}>
