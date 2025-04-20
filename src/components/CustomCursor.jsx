@@ -17,7 +17,7 @@ const CustomCursor = () => {
       const deltaX = mousePosition.x - cursorRef.current.x;
       const deltaY = mousePosition.y - cursorRef.current.y;
 
-      cursorRef.current.x += deltaX * easing;
+      cursorRef.current.x += deltaX * easing; 
       cursorRef.current.y += deltaY * easing;
 
       if (dotRef.current && glowRef.current) {

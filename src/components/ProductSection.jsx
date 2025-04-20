@@ -191,7 +191,7 @@ const ProductSection = ({ isActive }) => {
               <div className="bg-slate-100 rounded-xl shadow-xl p-8 transform rotate-2 hover:rotate-0 transition-all duration-300">
                 <div className="w-full h-64 bg-gray-200 rounded-lg mb-6 overflow-hidden ">
                   <img 
-                    src="src/assets/productShowcase.jpg" 
+                    src="./productShowcase.jpg" 
                     alt="Interactive Design Showcase" 
                     className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
                     onError={(e) => {
