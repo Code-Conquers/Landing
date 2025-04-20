@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+@theme {
+  --font-ren : "Crafty Girls", cursive;
+  --font-secondary : 'Raleway', 'sans-serif';
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.section {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.spline-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-light);
+  border-radius: 10px;
+}
+
+
+
+
