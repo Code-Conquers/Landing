@@ -186,10 +186,11 @@ const ProductSection = ({ isActive }) => {
             Discover Our <span className="text-primary">Product</span>
           </motion.h2>
 
-          
+
           
           <div className="grid md:grid-cols-2 gap-12 items-center ">
             <motion.div variants={itemVariants}>
+              
               <div className="bg-slate-100 rounded-xl shadow-xl p-8 transform rotate-2 hover:rotate-0 transition-all duration-300">
                 <div className="w-full h-64 bg-gray-200 rounded-lg mb-6 overflow-hidden ">
                   <img 
